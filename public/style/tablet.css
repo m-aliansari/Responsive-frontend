@@ -1,0 +1,59 @@
+#navbar::before{
+    height: 87px;
+}
+
+#navbar{
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navbar ul li{
+    font-size: 0.8rem;
+}
+
+#navbar ul li a{
+    padding: 3px 6px;
+}
+
+#logo{
+    margin: 3px 35px;
+}
+
+#home{
+    height: 350px;
+    padding: 0px 20px;
+}
+
+#home h1{
+    margin-top: 18px;
+}
+
+#home p{
+    font-size: 0.75rem;
+}
+
+.serv-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#services div{
+    margin: 25px 120px;
+}
+
+#services div p{
+    font-size: 0.75rem;
+}
+
+.h-primary{
+    font-size: 1.5rem;
+}
+
+.h-secondary{
+    font-size: 1.2rem;
+}

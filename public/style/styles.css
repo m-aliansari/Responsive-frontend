@@ -1,0 +1,168 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100vw;
+}
+
+.bgset::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    z-index: -2;
+    width: 100%;
+    height: 600px;
+}
+/* for logo  */
+
+#navbar::before{
+    content: "";
+    background-color: #9bd4d3;
+    /* background-color: black; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+#navbar{
+    width: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 56px;
+    width: 100px;
+    margin: 10px 35px;
+}
+
+#logo img{
+    top: 5px;
+    position: relative;
+    display: block;
+    width: 90px;
+    height: 30px;
+    margin: auto;
+}
+
+#logo div{
+    text-align: center;
+    color: #002343;
+    font-size: 23px;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li{
+    font-size: 1.3rem;
+    margin: 2px;
+}
+
+#navbar ul li a{
+    color: #1f1e1e;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    padding: 3px 22px;
+    border-radius: 20px;
+    background-color: #9d8f8e;
+    color: #2b2e3e;
+}
+
+#home::before{
+    background: url(../images/background2.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 600px;
+    z-index: -1;
+    opacity: 0.65;
+    width: 100%;
+}
+
+#home{
+    height: 520px;
+    padding: 0px 130px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+#home h1{
+    color: #f5dcbb;
+}
+
+
+
+#home p{
+    color: #eaeaea;
+    font-size: 1.3rem;
+}
+
+.serv-container{
+    background-color: white;
+    /* height: 480px; */
+}
+
+#services{
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: white;
+    width: 100%;
+    /* height: 380px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#services div{
+    background-color: #f3f0f0;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+#services div img{
+    height: 135px;
+}
+
+#services div p{
+    padding: 0px 10px 12px 10px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.2rem;
+}
+
+.center{
+    text-align: center;
+}
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.2rem;
+}
